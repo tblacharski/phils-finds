@@ -42,7 +42,6 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@sanity/eslint-config-studio": "^5.0.2",
-    "@tailwindcss/postcss": "^4.1.13",
     "@types/node": "^20",
     "@types/react": "^19.1",
     "@types/react-dom": "^19",
