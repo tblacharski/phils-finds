@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+.sanity/
+dist/
+out/
+
+# Sanity build output
+.sanity/**/dist/
+
+# Sanity Studio files generated during build
+.sanity/tmp/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env*
+!.env.example
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Testing / coverage
+coverage/
+*.lcov
+
+# Misc
+*.log
+*.tgz
+*.swp
+
+# Optional: lock files (if not using them consistently)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
