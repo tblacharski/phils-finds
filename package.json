@@ -27,6 +27,7 @@
     "@sanity/assist": "^5.0.0",
     "@sanity/template-validator": "^2.4.3",
     "@sanity/vision": "^4.5.0",
+    "@tailwindcss/postcss": "^4.1.13",
     "dotenv": "^17.2.1",
     "next": "15.3.3",
     "next-sanity": "10.0.15",
