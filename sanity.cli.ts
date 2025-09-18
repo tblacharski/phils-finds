@@ -6,9 +6,8 @@ export default defineCliConfig({
     projectId: clientEnv.NEXT_PUBLIC_SANITY_PROJECT_ID,
     dataset: clientEnv.NEXT_PUBLIC_SANITY_DATASET
   },
-  /**
-   * Enable auto-updates for studios.
-   * Learn more at https://www.sanity.io/docs/cli#auto-updates
-   */
+  deployment: {
+    appId: clientEnv.NEXT_PUBLIC_SANITY_APP_ID
+  },
   autoUpdates: true,
 })
