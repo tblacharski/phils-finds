@@ -7,7 +7,7 @@ export default defineCliConfig({
     dataset: clientEnv.NEXT_PUBLIC_SANITY_DATASET
   },
   deployment: {
-    appId: clientEnv.NEXT_PUBLIC_SANITY_APP_ID
+    appId: '472296'
   },
   autoUpdates: true,
 })
