@@ -48,28 +48,6 @@ export async function generateMetadata(): Promise<Metadata> {
   return formatMetaData(pageContent.seo);
 }
 
-export default async function Page() {
-  const { data: homePage } = await sanityFetch({
-    query: homePageQuery,
-  });
-
-  const slug = homePage?.homePage?.slug;
-
-  if (!slug) {
-    return <NotFound404/>;
-  }
-
-  const { data: pageContent } = await sanityFetch({
-    query: getPageBySlugQuery(slug),
-  });
-
-  if (!pageContent) {
-    return <NotFound404/>;
-  }
-
-  if (!pageContent?.bodyContent) {
-    return <NotFound404/>;
-  }
-
-  return (<PageSections sections={pageContent.bodyContent} />);
+export default function Page() {
+  return <div>Hello World</div>;
 }
