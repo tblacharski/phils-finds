@@ -1,12 +1,7 @@
-/** @type {import('postcss-load-config').Config} */
-import autoprefixer from 'autoprefixer';
-import postcssNested from 'postcss-nested';
-
-const config = {
-  plugins: [
-    autoprefixer,
-    postcssNested
-  ]
+// JavaScript
+module.exports = {
+  plugins: {
+    autoprefixer: {},
+    // add other plugins here
+  }
 };
-
-export default config;
