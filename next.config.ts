@@ -19,6 +19,9 @@ const nextConfig: NextConfig = {
       }
     ],
   },
+    experimental: {
+      useLightningcss: true,
+  },
 };
 
 export default nextConfig;
